@@ -1,0 +1,188 @@
+.hiden_div {
+	display: none;
+}
+
+.float_main {
+	width: 400px;
+	height: 360px;
+	position: fixed;
+	z-index: 999;
+	right: 100px;
+	top: 50px;
+	box-shadow: 10px 10px 5px dimgrey;
+	background-color: white;
+	border-radius : 10px;
+	display: block;
+}
+.error_msg {
+	color: red;
+    margin-left: 20%;
+    font-size: 16px;
+	display: none;
+}
+
+.float_main_title {
+	height: 25%;
+	width: auto;
+	background-color: skyblue;
+	box-shadow: 1px 5px 8px 0px dimgrey;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.tilte_span {
+	font-size: 50px;
+    margin-left: 28%;
+    color: white;
+}
+
+.float_main_body {
+	width: auto;
+	height: 75%;
+	background-color: white;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.component_span {
+	color: skyblue;
+    font-size: 30px;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.component_input {
+	border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-color: skyblue;
+    margin-left: 8%;
+    margin-top: 3%;
+    font-size: 27px;
+    text-align: center;
+}
+.component_sumit {
+	margin-left: 35%;
+    margin-top: 4%;
+    font-size: 32px;
+    color: skyblue;
+    border: 0px;
+    border-radius: 8px;
+    padding: 5px;
+}
+.component_sumit:hover {
+	background-color: dimgray;
+}
+
+.mask_div {
+	margin: 0; 
+	position: fixed; 
+	overflow: auto; 
+	top: 0; 
+	right: 0; 
+	bottom: 0; 
+	left: 0; 
+	z-index: 998; 
+	outline: 0; 
+	opacity: 0.3; 
+	background: #000;
+	display: block;
+}
+
+.edit_content {
+	height: 500px;
+	width: 600px;
+	margin: auto;
+}
+.edit_content_hcga {
+	height: 500px;
+	width: 750px;
+	margin: auto;
+}
+.edit_content_lon {
+	height: 500px;
+	width: 1050px;
+	margin: auto;
+}
+
+.span_show {
+	background-color: skyblue;
+    color: white;
+    font-size: 18px;
+}
+.data_table {
+	text-align: center;
+}
+.score_module {
+	overflow-y:scroll;
+	height: 360px;
+	width: 420px;
+}
+.hcga_module {
+	overflow-y:scroll;
+	height: 360px;
+	width: 720px;
+}
+.lon_module {
+	overflow-y:scroll;
+	height: 360px;
+	width: 1020px;
+}
+
+.short_input {
+	width: 60px;
+}
+.date_input {
+	width: 90px;
+}
+
+.middle_input {
+	width: 90px;
+}
+.table_size {
+	font-size: 2px;
+}
+
+.add_button {
+	height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    color: red;
+    font-size: 15px;
+	font-weight: bold;
+	background-color: skyblue;
+}
+
+.minus_button {
+	height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    color: red;
+    font-size: 15px;
+	font-weight: bold;
+	background-color: skyblue;
+}
+
+.data_submit {
+	margin-top: 1%;
+    margin-left: 40%;
+    border-radius: 6px;
+}
+.admin_sidebar_container {
+	position: fixed;
+    width: 224px;
+    top: 24%;
+    left: 62%;
+}
+.sidebar_container_ad {
+	position: fixed;
+    width: 224px;
+    top: 24%;
+    left: 75%;
+}
+
+.main_content {
+	width: 100%;
+	height: 490px;
+}
+.data_content {
+	margin-left: 220px;
+}
